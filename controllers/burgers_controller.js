@@ -27,15 +27,16 @@ router.put("/api/burger/:id", function(req, res) {
     );
 });
 
-router.get("*", function(req, res) {
+router.get("/", function(req, res) {
     burger.selectAll(function(data) {
         let object = {
             burgers: data
         };
 
-        console.log(object);
-        res.render("index", object);
+        // console.log(object);
+        
     });
+    res.render("index");
 });
 
 module.exports = router;
