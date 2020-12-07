@@ -1,0 +1,24 @@
+{
+  "name": "burgers_2.0",
+  "version": "1.0.0",
+  "description": "Using a juicy ORM and sandwiched in some soft, warm handlebars, this delicious burger app will keep your mouth watering. Served with a side of express and a crisp MySQL filling, finished with a spicy helping of Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tallglassof-milkjake/Burgers_2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tallglassof-milkjake/Burgers_2.0/issues"
+  },
+  "homepage": "https://github.com/tallglassof-milkjake/Burgers_2.0#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
